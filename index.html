@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude Test Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Claude Test</div>
+            <ul>
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#about">サイトについて</a></li>
+                <li><a href="#gallery">ギャラリー</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>ようこそ！Claude Test Siteへ👋</h1>
+            <p>これはClaudeを使って作成した静的サイトのサンプルです。</p>
+            <button class="cta-button">詳しく見る</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>サイトについて</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>このウェブサイトはAIアシスタントのClaudeによって作成されました。シンプルながらも機能的な静的サイトの一例です。</p>
+                    <p>レスポンシブデザインを採用しており、様々なデバイスでも快適に閲覧できます。</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>シンプル</h3>
+                        <p>必要最小限の要素</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>レスポンシブ</h3>
+                        <p>どのデバイスでも対応</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>軽量</h3>
+                        <p>高速読み込み</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>ギャラリー</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-img placeholder"></div>
+                    <h3>サンプル画像 1</h3>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img placeholder"></div>
+                    <h3>サンプル画像 2</h3>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img placeholder"></div>
+                    <h3>サンプル画像 3</h3>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img placeholder"></div>
+                    <h3>サンプル画像 4</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>お問い合わせ</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">メッセージ</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">送信</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Claude Test Site. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
